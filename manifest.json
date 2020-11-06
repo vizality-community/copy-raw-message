@@ -4,5 +4,7 @@
   "author": "dperolio",
   "authorId": "97549189629636608",
   "description": "Lets you copy messages with their formatting still intact.",
+  "icon": "assets/icon.png",
+  "color": "#b63b43",
   "license": "MIT"
 }

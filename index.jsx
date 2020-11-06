@@ -1,8 +1,8 @@
-const { patch, unpatch } = require('@patcher');
-const { getModule } = require('@webpack');
-const { Plugin } = require('@entities');
-const { Menu } = require('@components');
-const { React } = require('@react');
+const { patch, unpatch } = require('@vizality/patcher');
+const { getModule } = require('@vizality/webpack');
+const { Plugin } = require('@vizality/entities');
+const { Menu } = require('@vizality/components');
+const { React } = require('@vizality/react');
 
 module.exports = class CopyRawMessage extends Plugin {
   onStart () {
