@@ -1,11 +1,10 @@
 {
   "name": "Copy Raw Message",
-  "version": "1.0.0",
+  "description": "Lets you copy messages with their formatting still intact.",
+  "version": "1.0.1",
+  "license": "MIT",
   "author": {
     "name": "dperolio",
     "id": "97549189629636608"
-  },
-  "description": "Lets you copy messages with their formatting still intact.",
-  "icon": "assets/icon.png",
-  "license": "MIT"
+  }
 }
