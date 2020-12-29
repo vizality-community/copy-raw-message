@@ -1,3 +1,4 @@
+import React from 'react';
 
 import { patch, unpatch } from '@vizality/patcher';
 import { getModule } from '@vizality/webpack';
