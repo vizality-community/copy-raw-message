@@ -3,7 +3,7 @@ import React from 'react';
 import { patch, unpatch } from '@vizality/patcher';
 import { getModule } from '@vizality/webpack';
 import { Menu } from '@vizality/components';
-import { Plugin } from '@vizality/core';
+import { Plugin } from '@vizality/entities';
 
 export default class CopyRawMessage extends Plugin {
   onStart () {
