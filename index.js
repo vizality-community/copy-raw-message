@@ -6,11 +6,11 @@ import { Menu } from '@vizality/components';
 import { Plugin } from '@vizality/entities';
 
 export default class CopyRawMessage extends Plugin {
-  onStart () {
+  start () {
     this.patchContextMenu();
   }
 
-  onStop () {
+  stop () {
     unpatch('copy-raw-message');
   }
 
