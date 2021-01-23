@@ -1,8 +1,8 @@
 import React from 'react';
 
+import { ContextMenu } from '@vizality/components';
 import { patch, unpatch } from '@vizality/patcher';
 import { getModule } from '@vizality/webpack';
-import { Menu } from '@vizality/components';
 import { Plugin } from '@vizality/entities';
 
 export default class CopyRawMessage extends Plugin {
@@ -23,7 +23,7 @@ export default class CopyRawMessage extends Plugin {
       if (!message || !message.content) return res;
 
       res.props.children.push(
-        <Menu.MenuItem
+        <ContextMenu.Item
           label='Copy Raw Message'
           id='copy-raw-message'
           action={() => DiscordNative.clipboard.copy(message.content)}
